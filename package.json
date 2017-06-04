@@ -1,0 +1,23 @@
+{
+  "name": "ractive-jquidatepicker",
+  "version": "0.0.0",
+  "description": "A Ractive.js decorator for jQuery UI datepicker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monoblaine/ractive-jquidatepicker.git"
+  },
+  "keywords": [
+    "ractive.js",
+    "datepicker"
+  ],
+  "author": "Serhan Apaydın (https://github.com/monoblaine)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monoblaine/ractive-jquidatepicker/issues"
+  },
+  "homepage": "https://github.com/monoblaine/ractive-jquidatepicker#readme"
+}
