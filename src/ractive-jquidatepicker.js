@@ -1,4 +1,4 @@
-Ractive.decorators.jquidatepicker = function (node) {
+Ractive.decorators.jquidatepicker = function (node, datepickerCfg) {
     var self = this,
         $el = $(node),
         context = self.getContext(node),
@@ -10,11 +10,11 @@ Ractive.decorators.jquidatepicker = function (node) {
 
     keypath = context.getBindingPath();
 
-    $el.datepicker({
+    $el.datepicker($.extend(true, {}, datepickerCfg, {
         onSelect: function (dateText) {
             context.set(keypath, dateText);
         }
-    });
+    }));
 
     return {
         teardown: function () {
