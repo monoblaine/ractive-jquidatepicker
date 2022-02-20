@@ -1,5 +1,5 @@
 {
-  "name": "ractive-jquidatepicker",
+  "name": "@abt/ractive-jquidatepicker",
   "version": "0.2.0",
   "description": "A Ractive.js decorator for jQuery UI datepicker",
   "main": "index.js",
